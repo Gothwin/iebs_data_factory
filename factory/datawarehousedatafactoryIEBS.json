@@ -1,0 +1,9 @@
+{
+	"name": "datawarehousedatafactoryIEBS",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "72a4d972-06ac-4548-bf34-fa7a812a8eaf",
+		"tenantId": "2540df0d-0291-4846-8d09-761ade6f8ed9"
+	}
+}
