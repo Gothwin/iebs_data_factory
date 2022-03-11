@@ -1,0 +1,12 @@
+{
+	"name": "Titanic_servico_vinculado",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=iebsdatawarehousegothwin;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQERFNDFCQTgyLTkyNjctNDM5QS1CNjVFLUFCODYyN0QyMzhCMl9iOTZiMWRiYi1lN2VmLTRmZTItYmFmMy1kZGJmZTFhNDNhYmQiDQp9"
+		}
+	}
+}
