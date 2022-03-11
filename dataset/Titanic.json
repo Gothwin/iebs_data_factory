@@ -14,7 +14,6 @@
 				"container": "datawarehousecontenedor"
 			},
 			"columnDelimiter": ",",
-			"rowDelimiter": "",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
