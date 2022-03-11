@@ -13,17 +13,11 @@
 				}
 			],
 			"sinks": [],
-			"transformations": [
-				{
-					"name": "select1"
-				}
-			],
+			"transformations": [],
 			"scriptLines": [
 				"source(allowSchemaDrift: true,",
-				"     validateSchema: true,",
-				"     ignoreNoFilesFound: false) ~> Titanic",
-				"Titanic select(skipDuplicateMapInputs: true,",
-				"     skipDuplicateMapOutputs: true) ~> select1"
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> Titanic"
 			]
 		}
 	}
