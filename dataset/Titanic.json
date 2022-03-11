@@ -1,0 +1,22 @@
+{
+	"name": "Titanic",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Titanic_blob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Titanic.csv",
+				"container": "datawarehousecontenedor"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
