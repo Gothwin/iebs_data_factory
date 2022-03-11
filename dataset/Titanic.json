@@ -13,7 +13,7 @@
 				"fileName": "WorldCupMatches.csv",
 				"container": "datawarehousecontenedor"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
